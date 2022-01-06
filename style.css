@@ -107,3 +107,6 @@ span{
     border-image: linear-gradient(orange, red) ;
     border-image-slice: 1;
 }
+#hello-bangladesh{
+    width: 1200px;
+}

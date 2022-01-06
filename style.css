@@ -8,7 +8,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .half-width{
@@ -29,4 +29,81 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+span{
+    color: orangered;
+}
+
+.my-mission{
+    text-align: center;
+}
+.mission-vision{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 7px;
+    box-shadow: 10px 10px 40px;
+    text-align: justify;
+
+}
+.mission-vision-goal img{
+    
+    width: 100px;
+
+}
+h2{
+    font-size: 40px;
+}
+#my-mission{
+    background-color: paleturquoise;
+}
+#my-vision{
+    background-color: rosybrown;
+}
+#my-goal{
+    background-color: tan;
+}
+.about-mission{
+    text-align: justify;
+}
+.dev-without-limit{
+    width: 50;
+    padding-left: 10%;
+}
+.dev-without-limit img{
+    width: 60%;
+}
+.third-section{
+margin: 0%;
+grid-area: auto;
+}
+.corona-application{
+    text-align: center;
+}
+span{
+    color: orangered;
+}
+#dev-limit{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    grid-area: auto;
+}
+.mission-2022{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+span{
+    color: red;
+}
+.hardwork-mission{
+    font-size: 50px;text-align: center;
+}
+#first-section{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, red) ;
+    border-image-slice: 1;
 }
